@@ -22,7 +22,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                sh 'git clone https://github.com/rishabhsrivastava05-eng/attendance-system-Rishabh.git/ .'
+                sh 'git clone https://github.com/rishabhsrivastava05-eng/attendance-system-Rishabh.git .'
             }
         }
 
